@@ -1,38 +1,97 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+body {
+  background-image: url(https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-color: #cccccc;
+  background-size: cover;
+  font-family: "Righteous", cursive;
+}
+
+/* navbar on every page  */
+.navbar-brand {
+  background-color: rgba(214, 214, 214, 0.425);
+  padding: 10px;
+  border-radius: 10px;
+}
+.navbar-nav {
+  margin-left: auto;
+}
+
+/* Container on every page  */
+section {
+  float: left;
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: rgba(214, 214, 214, 0.425);
+  border-radius: 25px;
+}
+section h1 {
+  color: rgb(0, 132, 255);
+}
+
+/* img on contact page  */
+.textwrap {
+  float: left;
+  height: 350px;
+  width: 350px;
+  width: 50%;
+  height: 50%;
+  margin-right: 20px;
+}
+
+/* contact info  */
+aside {
+  float: left;
+  margin-left: 15%;
+  width: 21%;
+  padding: 20px;
+  background-color: rgba(214, 214, 214, 0.425);
+  border-radius: 25px;
+  margin-bottom: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+  container {
+    width: 95vw;
+    margin: 40px 0;
+  }
+  aside {
+    width: 85vw;
+    margin: 0 0 20px 0;
+    clear: both;
+  }
+  .col-sm-6 {
+    width: 95%;
+    height: 95%;
+  }
+}
+
+aside h5 {
+  color: rgb(0, 132, 255);
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+}
+
+/* images on portfolio page  */
+.col-sm-6 {
+  width: 95%;
+  height: 95%;
+  margin-bottom: 20px;
+}
+
+/* footer editing  */
+.footer,
+.push {
+  clear: both;
+  height: 50px;
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: aliceblue;
+  background-color: black;
 }
