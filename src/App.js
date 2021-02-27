@@ -5,14 +5,14 @@ import Navbar from "./pages/Navbar";
 import Footer from "./pages/Footer";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
-import "./App.css";
+// import "./App.css";
 
 function App() {
   return (
     <Router>
       <>
         <Navbar />
-        <Route path={("*", "/main")} component={Main} />
+        <Route exact path="/" component={Main} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Footer />

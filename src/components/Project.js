@@ -12,10 +12,10 @@ function Project(props) {
       />
       <h5>{props.title}</h5>
       <a className="inline-link" href={props.repo} target="_blank">
-        [GitHub Repo]
+        [GitHub Repo] {"  "}
       </a>
       <a className="inline-link" href={props.link} target="_blank">
-        [Live Link]
+        {"  "} [Live Link]
       </a>
     </div>
   );
