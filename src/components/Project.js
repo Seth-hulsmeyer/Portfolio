@@ -10,6 +10,7 @@ function Project(props) {
         alt={props.title}
         style={{ height: "90%", width: "90%" }}
       />
+      <h5>{props.title}</h5>
       <a className="inline-link" href={props.repo} target="_blank">
         [GitHub Repo]
       </a>
