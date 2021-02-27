@@ -27,7 +27,7 @@ function Main() {
         will be able to see various links to projects that I have completed.
       </p>
       <hr />
-      <h4>Coding Language/Technologies Experience:</h4>
+      <h4>Coding Language / Technologies Experience:</h4>
       <ul>
         <li>HTML & CSS</li>
         <li>Javascript & jQuery</li>

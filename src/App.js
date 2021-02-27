@@ -12,7 +12,7 @@ function App() {
     <Router>
       <>
         <Navbar />
-        <Route path={("/", "/main")} component={Main} />
+        <Route path={("*", "/main")} component={Main} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Footer />

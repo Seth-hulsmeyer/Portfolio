@@ -17,28 +17,28 @@ const projArray = [
     link: "https://thawing-shelf-08845.herokuapp.com/members",
   },
   {
-    title: "Note Taker",
-    image: "./assets/Note_Taker.PNG",
-    repo: "https://github.com/Seth-hulsmeyer/Note_Taker",
-    link: "https://lit-refuge-99276.herokuapp.com/notes",
+    title: "Employee Directory",
+    image: "./assets/Employee_Directory.PNG",
+    repo: "https://github.com/Seth-hulsmeyer/Employee_Directory",
+    link: "https://pedantic-wozniak-a6abbd.netlify.app",
+  },
+  {
+    title: "Budget Tracker",
+    image: "./assets/Budget_Tracker.PNG",
+    repo: "https://github.com/Seth-hulsmeyer/Budget_Tracker",
+    link: "https://agile-reef-45050.herokuapp.com/",
+  },
+  {
+    title: "Fitness Tracker",
+    image: "./assets/Fitness_Tracker.PNG",
+    repo: "https://github.com/Seth-hulsmeyer/Fitness_Tracker",
+    link: "https://radiant-atoll-44072.herokuapp.com/stats",
   },
   {
     title: "LotR Quiz Game",
     image: "./assets/LotR_Game.PNG",
     repo: "https://github.com/Seth-hulsmeyer/LotR_QuizGame",
     link: "https://seth-hulsmeyer.github.io/LotR_QuizGame/",
-  },
-  {
-    title: "Random Password Generator",
-    image: "./assets/Psw_Gen.PNG",
-    repo: "https://github.com/Seth-hulsmeyer/Password_Generator",
-    link: "https://seth-hulsmeyer.github.io/Password_Generator/",
-  },
-  {
-    title: "Daily Work Planner",
-    image: "./assets/Daily_Plan.PNG",
-    repo: "https://github.com/Seth-hulsmeyer/Daily_Planner",
-    link: "https://seth-hulsmeyer.github.io/Daily_Planner/",
   },
 ];
 
