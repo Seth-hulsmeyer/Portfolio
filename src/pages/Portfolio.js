@@ -5,6 +5,12 @@ import Project from "../components/Project";
 //project array, title, image, live link, github repo
 const projArray = [
   {
+    title: "Feed Your Bean",
+    image: "./assets/FYB_cap.PNG",
+    repo: "https://github.com/Seth-hulsmeyer/BeanTeam",
+    link: "https://feed-your-bean.herokuapp.com/",
+  },
+  {
     title: "CO National Parks",
     image: "./assets/Ntl_Parks_site.PNG",
     repo: "https://github.com/Seth-hulsmeyer/CO_Park_Rangers",
@@ -27,12 +33,6 @@ const projArray = [
     image: "./assets/Budget_Tracker.PNG",
     repo: "https://github.com/Seth-hulsmeyer/Budget_Tracker",
     link: "https://agile-reef-45050.herokuapp.com/",
-  },
-  {
-    title: "Fitness Tracker",
-    image: "./assets/Fitness_Tracker.PNG",
-    repo: "https://github.com/Seth-hulsmeyer/Fitness_Tracker",
-    link: "https://radiant-atoll-44072.herokuapp.com/stats",
   },
   {
     title: "LotR Quiz Game",

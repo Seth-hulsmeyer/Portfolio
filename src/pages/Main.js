@@ -27,6 +27,18 @@ function Main() {
         will be able to see various links to projects that I have completed.
       </p>
       <hr />
+      <div class="card-body">
+        <h5 class="card-title">Seth Hulsmeyer</h5>
+        <p>Phone: (937) 638-8565</p>
+        <p>Email: seth.hulsmeyer@hotmail.com</p>
+        <p>
+          GitHub:{" "}
+          <a target="_blank" href="https://github.com/Seth-hulsmeyer">
+            Seth-Hulsmeyer
+          </a>
+        </p>
+      </div>
+      <hr />
       <h4>Coding Language / Technologies Experience:</h4>
       <ul>
         <li>HTML & CSS</li>
